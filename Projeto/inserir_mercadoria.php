@@ -8,10 +8,10 @@
         <input type="text" name="produto">
         <br><br>
         Preço:
-        <input type="number" required name="price" value="0" step=".01">
+        <input type="number" name="preco" value="0" step=".01">
         <br><br>
         Quantidade:
-        <input type="number" min="0">
+        <input type="number" min="0" name="quantidade">
         <br><br>
         <input type="submit" value="Cadastrar">
     </label>
