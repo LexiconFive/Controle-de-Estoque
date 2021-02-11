@@ -14,7 +14,7 @@ else{
 
 if($pagina == 'inserir_mercadoria'){
 
-    include 'inserir_mercadoria.php';
+    include 'inserir_mercadoria.html';
 
 }else{
 
