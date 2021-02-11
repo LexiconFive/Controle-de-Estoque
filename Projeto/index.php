@@ -21,4 +21,3 @@ if($pagina == 'inserir_mercadoria'){
     include 'home.php';
 }
 include 'footer.php';
-echo "ola";
