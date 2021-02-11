@@ -1,0 +1,11 @@
+header{height: 100px; background-color: #262626; padding: 50px 0}
+body{font-family: helvetica, arial, serif; font-size: 16px; background-color: white}
+footer{height: 10px; background-color: #262626; padding: 25px 0; text-align: center}
+td,th{ text-align: center; border: 1px solid rgb(190, 190, 190); padding: 5px}
+th{ background-color: black; color: white}
+.button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left}
+.home{content: url("icons/home.ico")}
+.container{ margin: 0 auto; width: 960px}
+#menu{float: right; padding: 40px 0}
+#menu a{text-decoration: none; padding: 20px 40px; color: cornsilk; text-shadow: 1px 1px 1px #111}
+#menu a:hover{background-color: cadetblue}
