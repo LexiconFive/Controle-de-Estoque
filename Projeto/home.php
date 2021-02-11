@@ -1,3 +1,6 @@
+<?php
+
+?>
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria">Inserir Mercadoria</a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
