@@ -20,4 +20,4 @@ if($pagina == 'inserir_mercadoria'){
 
     include 'home.php';
 }
-include 'footer.php';
+include 'footer.html';
