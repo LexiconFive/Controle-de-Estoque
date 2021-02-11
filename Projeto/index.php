@@ -1,6 +1,6 @@
 <?php
 
-include 'header.php';
+include 'header.html';
 
 if(isset($_GET['pagina'])){
 
