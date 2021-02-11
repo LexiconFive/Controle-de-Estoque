@@ -5,5 +5,5 @@ $user = 'root';
 $senha = 'colin122';
 $db = 'controle_de_estoque';
 
-$connection = mysqli_connect($servidor, $user, $senha, $db);
+return mysqli_connect($servidor, $user, $senha, $db);
 

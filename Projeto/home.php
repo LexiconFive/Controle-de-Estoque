@@ -1,6 +1,9 @@
 <?php
 
+    $connection = include 'db.php';
+
 ?>
+
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria">Inserir Mercadoria</a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
@@ -18,13 +21,19 @@
         </thead>
     <tbody>
 
-        <tr>
-            <td>12345</td>
-            <td>Calça Jeans</td>
-            <td>R$ 40,00</td>
-            <td>35</td>
+    <?php
 
-        </tr>
+    $query = "SELECT * FROM tabela";
+    $consulta_estoque = mysqli_query($connection, $query);
+    while($linha = mysqli_fetch_array($consulta_estoque)){
+
+        echo '<tr><td>'.$linha['id'].'</td>';
+        echo '<td>'.$linha['produto'].'</td>';
+        echo '<td>R$ '.$linha['preco'].'</td>';
+        echo '<td>'.$linha['quantidade'].'</td></tr>';
+    }
+
+    ?>
 
     </tbody>
 

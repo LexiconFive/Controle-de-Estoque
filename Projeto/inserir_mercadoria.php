@@ -1,11 +1,11 @@
 <h1>Inserir Mercadoria</h1>
 <br>
 
-<form method="post" action="?pagina=home">
+<form method="post" action="processa_inserir_mercadoria.php">
 
     <label>
         Nome do produto:
-        <input type="text">
+        <input type="text" name="produto">
         <br><br>
         Preço:
         <input type="number" required name="price" value="0" step=".01">
