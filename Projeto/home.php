@@ -4,7 +4,7 @@
 
 ?>
 
-<a class="button_inserir_item" href="?pagina=inserir_mercadoria">Inserir Mercadoria</a>
+<a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
     <caption style="font-weight: bold; font-size: 30px">Tabela de estoque</caption>
@@ -15,6 +15,7 @@
                 <th>Produto</th>
                 <th>Preço</th>
                 <th>Quantidade</th>
+                <th>Deletar</th>
 
             </tr>
 
@@ -30,7 +31,8 @@
         echo '<tr><td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['produto'].'</td>';
         echo '<td>R$ '.$linha['preco'].'</td>';
-        echo '<td>'.$linha['quantidade'].'</td></tr>';
+        echo '<td>'.$linha['quantidade'].'</td>';
+        echo '<td><a class="button_deletar_item" href="deletar_mercadoria.php"></a></td></tr>';
     }
 
     ?>
