@@ -1,19 +1,29 @@
 <h1>Inserir Mercadoria</h1>
 <br>
 
+<script>
+
+    function aviso(){
+
+        alert("Mercadoria inserida no estoque com sucesso!");
+
+    }
+
+</script>
+
 <form style="" method="post" action="processa_inserir_mercadoria.php">
 
     <label>
         Nome do produto:
         <input type="text" name="produto">
         <br><br>
-        Preço:
+        Preço (Kg):
         <input type="number" name="preco" value="0" step=".01">
         <br><br>
-        Quantidade:
+        Quantidade (Kg):
         <input type="number" min="0" name="quantidade">
         <br><br>
-        <input type="submit" value="Cadastrar">
+        <input type="submit" onclick="aviso()" value="Cadastrar">
     </label>
 
 </form>

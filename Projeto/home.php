@@ -4,6 +4,16 @@
 
 ?>
 
+<script>
+
+    function aviso(){
+
+        alert("Mercadoria deletada no estoque com sucesso!");
+
+    }
+
+</script>
+
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
@@ -33,7 +43,7 @@
         echo '<td>'.$linha['quantidade'].'</td>';
         echo '<td><form method="post" action="deletar_mercadoria.php">
                     <input type="hidden" name="id" value="'.$linha['id'].'">
-                    <input type="submit"  value="Deletar">
+                    <input type="submit" onclick="aviso()" value="Deletar">
                   </form></td>';
         echo '<td><form method="post" action="?pagina=alterar_mercadoria">
                     <input type="hidden" name="id" value="'.$linha['id'].'">

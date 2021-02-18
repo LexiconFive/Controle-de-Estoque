@@ -1,6 +1,16 @@
 <h1>Alterar mercadoria</h1>
 <br>
 
+<script>
+
+    function aviso(){
+
+        alert("Mercadoria alterada no estoque com sucesso!");
+
+    }
+
+</script>
+
 <?php
 
 $connection = include 'db.php';
@@ -25,10 +35,10 @@ while($linha = mysqli_fetch_array($consulta_estoque)) {
             Preço (Kg):
             <input type="number" name="preco" value="<?php echo $linha['preco'];?>" step=".01">
             <br><br>
-            Quantidade:
+            Quantidade (Kg):
             <input type="number" min="0" name="quantidade" value="<?php echo $linha['quantidade'] ?>">
             <br><br>
-            <input type="submit" value="Alterar">
+            <input type="submit" onclick="aviso()" value="Alterar">
 
         </label>
 
