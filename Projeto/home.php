@@ -12,9 +12,10 @@
             <tr>
 
                 <th>Produto</th>
-                <th>Preço</th>
-                <th>Quantidade</th>
+                <th>Preço (Kg)</th>
+                <th>Quantidade (Kg)</th>
                 <th>Deletar</th>
+                <th>Editar</th>
 
             </tr>
 
@@ -33,6 +34,10 @@
         echo '<td><form method="post" action="deletar_mercadoria.php">
                     <input type="hidden" name="id" value="'.$linha['id'].'">
                     <input type="submit"  value="Deletar">
+                  </form></td>';
+        echo '<td><form method="post" action="?pagina=alterar_mercadoria">
+                    <input type="hidden" name="id" value="'.$linha['id'].'">
+                    <input type="submit"  value="Editar">
                   </form></td></tr>';
     }
 

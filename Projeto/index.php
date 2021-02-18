@@ -16,6 +16,10 @@ if($pagina == 'inserir_mercadoria'){
 
     include 'inserir_mercadoria.html';
 
+}elseif ($pagina == 'alterar_mercadoria'){
+
+    include 'alterar_mercadoria.php';
+
 }else{
 
     include 'home.php';
