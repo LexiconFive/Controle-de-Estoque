@@ -1,31 +1,53 @@
-<h1>Inserir Mercadoria</h1>
-<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    </title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<form style="" name="dados" method="post" action="processa_inserir_mercadoria.php" onsubmit="return aviso()" >
+
+    <h1>Inserir Mercadoria</h1>
+    <br>
+    <label>
+        Nome do produto:
+        <input type="text" id="produto" name="produto">
+        <br><br>
+        Preço (Kg):
+        <input type="number" id="preco" name="preco" step=".01">
+        <br><br>
+        Quantidade (Kg):
+        <input type="number" min="0" id="quantidade" name="quantidade">
+        <br><br>
+        <input type="submit" value="Cadastrar">
+    </label>
+
+</form>
 
 <script>
 
     function aviso(){
 
-        alert("Mercadoria inserida no estoque com sucesso!");
+        let produto = document.forms["dados"]['produto'].value;
+
+        if(produto == ""){
+
+            alert("Preencha o formulário corretamente!");
+            return false
+
+        }else{
+
+            alert("Mercadoria inserida com sucesso!");
+            return true;
+
+        }
 
     }
 
 </script>
 
-<form style="" method="post" action="processa_inserir_mercadoria.php">
-
-    <label>
-        Nome do produto:
-        <input type="text" name="produto">
-        <br><br>
-        Preço (Kg):
-        <input type="number" name="preco" value="0" step=".01">
-        <br><br>
-        Quantidade (Kg):
-        <input type="number" min="0" name="quantidade">
-        <br><br>
-        <input type="submit" onclick="aviso()" value="Cadastrar">
-    </label>
-
-</form>
-
 <br>
+</body>
+</html>

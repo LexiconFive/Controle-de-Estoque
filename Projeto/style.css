@@ -4,7 +4,9 @@ footer{height: 10px; background-color: #262626; padding: 25px 0; text-align: cen
 td,th{ text-align: center; border: 1px solid rgb(190, 190, 190); padding: 5px;}
 th{ background-color: black; color: white}
 td{font-weight: bold; font-size: 20px}
-.button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left}
+.button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left; border: black}
+.button_deletar{background-color: indianred}
+.button_editar{background-color: goldenrod}
 .home{content: url("icons/home.ico")}
 .container{ margin: 0 auto; width: 960px}
 #menu{float: right; padding: 40px 0}

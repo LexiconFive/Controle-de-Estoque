@@ -5,7 +5,7 @@
 
     function aviso(){
 
-        alert("Mercadoria alterada no estoque com sucesso!");
+        alert("Mercadoria alterada com sucesso!");
 
     }
 

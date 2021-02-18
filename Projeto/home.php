@@ -8,7 +8,7 @@
 
     function aviso(){
 
-        alert("Mercadoria do estoque deletada com sucesso!");
+        alert("Mercadoria deletada com sucesso!");
 
     }
 
@@ -43,11 +43,11 @@
         echo '<td>'.$linha['quantidade'].'</td>';
         echo '<td><form method="post" action="deletar_mercadoria.php">
                     <input type="hidden" name="id" value="'.$linha['id'].'">
-                    <input type="submit" onclick="aviso()" value="Deletar">
+                    <input class="button_deletar" type="submit" onclick="aviso()" value="Deletar">
                   </form></td>';
         echo '<td><form method="post" action="?pagina=alterar_mercadoria">
                     <input type="hidden" name="id" value="'.$linha['id'].'">
-                    <input type="submit"  value="Editar">
+                    <input class="button_editar" type="submit"  value="Editar">
                   </form></td></tr>';
     }
 
