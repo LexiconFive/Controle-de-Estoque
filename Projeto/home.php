@@ -8,7 +8,7 @@
 
     function aviso(){
 
-        alert("Mercadoria deletada no estoque com sucesso!");
+        alert("Mercadoria do estoque deletada com sucesso!");
 
     }
 

@@ -1,7 +1,7 @@
 header{height: 100px; background-color: #262626; padding: 50px 0}
 body{font-family: helvetica, arial, serif; font-size: 16px; background-color: white}
 footer{height: 10px; background-color: #262626; padding: 25px 0; text-align: center}
-td,th{ text-align: center; border: 1px solid rgb(190, 190, 190); padding: 5px}
+td,th{ text-align: center; border: 1px solid rgb(190, 190, 190); padding: 5px;}
 th{ background-color: black; color: white}
 td{font-weight: bold; font-size: 20px}
 .button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left}
