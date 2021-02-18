@@ -32,7 +32,7 @@
         echo '<td>'.$linha['produto'].'</td>';
         echo '<td>R$ '.$linha['preco'].'</td>';
         echo '<td>'.$linha['quantidade'].'</td>';
-        echo '<td><a class="button_deletar_item" href="deletar_mercadoria.php"></a></td></tr>';
+        echo '<td><form method="post" action="deletar_mercadoria.php"><input type="hidden" name="id" value="'.$linha['id'].'"><input type="submit"  value="Deletar"></form></td></tr>';
     }
 
     ?>

@@ -2,13 +2,15 @@
 
 $connection = include 'db.php';
 
-$produto = $_POST['produto'];
-$preco = $_POST['preco'];
-$quantidade = $_POST['quantidade'];
+$id = $_POST['id'];
 
-$query = "";
+$query = "DELETE FROM tabela
+          WHERE id = $id";
 
 mysqli_query($connection, $query);
 
 header('location:index.php?pagina=home');
+
+
+
 
