@@ -7,6 +7,7 @@ td{font-weight: bold; font-size: 20px}
 .button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left; border: black}
 .button_deletar{background-color: indianred}
 .button_editar{background-color: goldenrod}
+.button_calculadora{padding: 10px; content: url("icons/calculadora.ico"); horiz-align: left; border: black}
 .home{content: url("icons/home.ico")}
 .container{ margin: 0 auto; width: 960px}
 #menu{float: right; padding: 40px 0}

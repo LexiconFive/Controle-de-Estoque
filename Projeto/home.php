@@ -14,7 +14,19 @@
 
 </script>
 
+<script lang=javascript type="text/javascript">
+
+    function popup(){
+
+        window.open('Calculadora.php', '', "width=311, height=370, top=100, left=110, scrollbars=no , resizable=no, menubar=no" );
+
+    }
+
+
+</script>
+
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
+<a class="button_calculadora" href="javascript:popup()">Pop Up</a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
     <caption style="font-weight: bold; font-size: 30px">Tabela de estoque</caption>

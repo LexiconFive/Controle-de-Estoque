@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="876de305-98f9-481e-8cba-3b4f20f8f75a" name="Default Changelist" comment="Mudando" />
+    <list default="true" id="876de305-98f9-481e-8cba-3b4f20f8f75a" name="Default Changelist" comment="Mudando">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/inserir_mercadoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/inserir_mercadoria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,16 +44,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projeto/icons" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documentos\GitHub\Controle-de-estoque\Projeto\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documentos\GitHub\Controle-de-estoque\Projeto" />
       <recent name="D:\Documentos\GitHub\Controle-de-estoque\Projeto\icons" />
@@ -63,7 +79,9 @@
       <workItem from="1613165081582" duration="494000" />
       <workItem from="1613601678089" duration="59000" />
       <workItem from="1613647840547" duration="8886000" />
-      <workItem from="1613664097889" duration="17088000" />
+      <workItem from="1613664097889" duration="17674000" />
+      <workItem from="1613739340622" duration="4844000" />
+      <workItem from="1613745850439" duration="660000" />
     </task>
     <servers />
   </component>
