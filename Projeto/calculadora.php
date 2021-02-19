@@ -8,6 +8,7 @@
 <form action="resultado.php">
 
     <label>
+        <?php ?>
         <input type="text" style="width:270px; height:40px" disabled >
         <br><br>
         <input type="Button" style="width:90px; height:40px" value= 1>

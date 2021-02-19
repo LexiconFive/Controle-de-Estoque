@@ -18,7 +18,7 @@
 
     function popup(){
 
-        window.open('Calculadora.php', '', "width=311, height=370, top=100, left=110, scrollbars=no , resizable=no, menubar=no" );
+        window.open('calculadora.php', '', "width=311, height=370, top=100, left=110, scrollbars=no , resizable=no, menubar=no" );
 
     }
 
