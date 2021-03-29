@@ -5,7 +5,7 @@ td,th{ text-align: center; border: 1px solid rgb(190, 190, 190); padding: 5px;}
 th{ background-color: black; color: white}
 td{font-weight: bold; font-size: 20px}
 .button_inserir_item{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left; border: black}
-.button_deletar{background-color: indianred}
+.button_deletar{padding: 10px; url("icons/deleteItem.icon")}
 .button_editar{background-color: goldenrod}
 .button_calculadora{padding: 10px; content: url("icons/calculadora.ico"); horiz-align: left; border: black}
 .home{content: url("icons/home.ico")}
