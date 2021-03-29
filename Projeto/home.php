@@ -40,7 +40,7 @@
 
     <?php
 
-    $query = "SELECT * FROM tabela";
+    $query = "SELECT * FROM estoque";
     $consulta_estoque = mysqli_query($connection, $query);
     while($linha = mysqli_fetch_array($consulta_estoque)){
 

@@ -4,7 +4,7 @@ $connection = include 'db.php';
 
 $id = $_POST['id'];
 
-$query = "DELETE FROM tabela
+$query = "DELETE FROM estoque
           WHERE id = $id";
 
 mysqli_query($connection, $query);

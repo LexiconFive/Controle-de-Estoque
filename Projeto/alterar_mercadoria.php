@@ -17,7 +17,7 @@ $connection = include 'db.php';
 
 $id = $_POST['id'];
 
-$query = "SELECT * FROM tabela 
+$query = "SELECT * FROM estoque 
           WHERE id = $id";
 
 $consulta_estoque = mysqli_query($connection, $query);

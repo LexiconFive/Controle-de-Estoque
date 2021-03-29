@@ -8,7 +8,7 @@ $unidade = $_POST['unidade'];
 $preco = $_POST['preco'];
 $quantidade = $_POST['quantidade'];
 
-$query = "UPDATE tabela SET produto = '$produto', unidade = '$unidade',preco = $preco, quantidade = $quantidade
+$query = "UPDATE estoque SET produto = '$produto', unidade = '$unidade',preco = $preco, quantidade = $quantidade
           WHERE id = $id";
 
 mysqli_query($connection, $query);
