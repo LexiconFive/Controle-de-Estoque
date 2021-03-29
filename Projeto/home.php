@@ -27,8 +27,9 @@
             <tr>
 
                 <th>Produto</th>
-                <th>Preço (Kg)</th>
-                <th>Quantidade (Kg)</th>
+                <th>Unidade</th>
+                <th>Preço (Unidade)</th>
+                <th>Quantidade (Unidade)</th>
                 <th>Deletar</th>
                 <th>Editar</th>
 
@@ -44,6 +45,7 @@
     while($linha = mysqli_fetch_array($consulta_estoque)){
 
         echo '<td>'.$linha['produto'].'</td>';
+        echo '<td>'.$linha['unidade'].'</td>';
         echo '<td>R$ '.$linha['preco'].'</td>';
         echo '<td>'.$linha['quantidade'].'</td>';
         echo '<td><form method="post" action="deletar_mercadoria.php">
