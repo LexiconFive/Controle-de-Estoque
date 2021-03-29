@@ -16,9 +16,13 @@ if($pagina == 'inserir_mercadoria'){
 
     include 'inserir_mercadoria.html';
 
-}elseif ($pagina == 'alterar_mercadoria'){
+}elseif ($pagina == 'alterar_mercadoria') {
 
     include 'alterar_mercadoria.php';
+
+}elseif ($pagina == 'fornecedores'){
+
+    include 'fornecedores.php';
 
 }else{
 

@@ -40,7 +40,7 @@ class App:
 
 
     def __init__(self):
-        self.window = sg.Window('Calculador', layout, return_keyboard_events=False)
+        self.window = sg.Window('Calculadora', layout, return_keyboard_events=False)
         self.result = 0
         self.open = ''
         self.window.read(timeout=1)

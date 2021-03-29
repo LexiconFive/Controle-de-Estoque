@@ -19,7 +19,8 @@
 </script>
 
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
-<a class="button_calculadora" href="calculadora.php">Pop Up</a>
+<a class="button_calculadora" href="calculadora.php"></a>
+<a class="button_fornecedor" href="?pagina=fornecedores"></a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
     <caption style="font-weight: bold; font-size: 30px">Tabela de estoque</caption>
