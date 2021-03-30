@@ -1,3 +1,4 @@
+.button_arquivo{padding: 10px; content: url("icons/excel.ico"); horiz-align: right; border: black}
 header{height: 100px; background-color: #262626; padding: 50px 0}
 body{font-family: helvetica, arial, serif; font-size: 16px; background-color: white}
 footer{height: 10px; background-color: #262626; padding: 25px 0; text-align: center}
@@ -8,7 +9,6 @@ td{font-weight: bold; font-size: 20px}
 .button_inserir_fornecedor{padding: 10px; content: url("icons/addItem.ico"); horiz-align: left; border: black}
 .button_fornecedor{padding: 10px; content: url("icons/fornecedor.ico"); horiz-align: left; border: black}
 .button_calculadora{padding: 10px; content: url("icons/calculadora.ico"); horiz-align: left; border: black}
-.button_arquivo{padding: 10px; content: url("icons/excel.ico"); horiz-align: left; border: black}
 .button_deletar{background-color: indianred}
 .button_editar{background-color: goldenrod}
 

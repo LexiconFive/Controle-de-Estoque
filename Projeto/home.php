@@ -21,7 +21,6 @@
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
 <a class="button_calculadora" href="calculadora.php"></a>
 <a class="button_fornecedor" href="?pagina=fornecedores"></a>
-<a class="button_arquivo" href="gerar_arquivo.php"></a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
     <caption style="font-weight: bold; font-size: 30px">Tabela de estoque</caption>
@@ -65,5 +64,4 @@
     </tbody>
 
 </table>
-
-<br>
+<a class="button_arquivo" href="gerar_planilha_estoque.php"></a>
