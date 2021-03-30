@@ -46,8 +46,8 @@ $connection = include 'db.php';
         echo '<td>'.$linha['ramo'].'</td>';
         echo '<td>'.$linha['telefone'].'</td>';
         echo '<td>'.$linha['whatsapp'].'</td>';
-        echo '<td><form method="post" action="deletar_fornecedor.php">
-                    <input type="hidden" name="id" value="'.$linha['id'].'">
+        echo '<td><form method="post" action="Fornecedor/deletar_fornecedor.php">
+                    <input type="hidden" name="id" value="' .$linha['id'].'">
                     <input class="button_deletar" type="submit" onclick="aviso()" value="Deletar">
                   </form></td>';
         echo '<td><form method="post" action="?pagina=alterar_fornecedor">

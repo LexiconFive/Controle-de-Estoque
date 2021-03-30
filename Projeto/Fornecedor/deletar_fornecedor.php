@@ -1,6 +1,6 @@
 <?php
 
-$connection = include 'db.php';
+$connection = include '../db.php';
 
 $id = $_POST['id'];
 
@@ -9,4 +9,4 @@ $query = "DELETE FROM fornecedores
 
 mysqli_query($connection, $query);
 
-header('location:index.php?pagina=fornecedores');
+header('location:../index.php?pagina=fornecedores');

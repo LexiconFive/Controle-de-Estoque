@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$connection = include_once 'db.php' ;
+$connection = include_once '../db.php';
 
 ?>
 <!DOCTYPE html>

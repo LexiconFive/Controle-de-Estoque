@@ -1,6 +1,6 @@
 <?php
 
-$connection = include 'db.php';
+$connection = include '../db.php';
 
 $fornecedor = $_POST['fornecedor'];
 $contato = $_POST['contato'];
@@ -13,5 +13,5 @@ $query = "INSERT INTO fornecedores (empresa, contato, ramo, telefone, whatsapp)
 
 mysqli_query($connection, $query);
 
-header('location:index.php?pagina=fornecedores');
+header('location:../index.php?pagina=fornecedores');
 

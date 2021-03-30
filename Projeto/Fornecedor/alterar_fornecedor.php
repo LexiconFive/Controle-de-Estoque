@@ -24,7 +24,7 @@ $consulta_fornecedor = mysqli_query($connection, $query);
 while($linha = mysqli_fetch_array($consulta_fornecedor)) {
     ?>
 
-    <form method="post" action="processa_alterar_fornecedor.php">
+    <form method="post" action="Fornecedor/processa_alterar_fornecedor.php">
 
         <label>
 
@@ -51,7 +51,7 @@ while($linha = mysqli_fetch_array($consulta_fornecedor)) {
 
     </form>
 
-    <form action="cancelar_fornecedor.php">
+    <form action="Fornecedor/cancelar_fornecedor.php">
 
         <input style="background-color: indianred" type="submit" value="Cancelar">
         <br><br>
