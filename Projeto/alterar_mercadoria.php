@@ -1,5 +1,4 @@
 <h1>Alterar mercadoria</h1>
-<br>
 
 <script>
 
@@ -52,9 +51,17 @@ while($linha = mysqli_fetch_array($consulta_estoque)) {
             Quantidade (Kg):
             <input type="number" min="0" name="quantidade" value="<?php echo $linha['quantidade'] ?>">
             <br><br>
-            <input type="submit" onclick="aviso()" value="Alterar">
+            <input style="background-color: green" type="submit" onclick="aviso()" value="Alterar">
+            <br><br>
 
         </label>
+
+    </form>
+
+    <form method="post" action="cancelar_mercadoria.php">
+
+        <input style="background-color: indianred" type="submit" value="Cancelar">
+        <br><br>
 
     </form>
 
