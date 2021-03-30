@@ -1,6 +1,6 @@
 <?php
 
 #comando para executar um programa em python. Diretório escondido
-exec('python Python\main.py');
+exec('python Calculadora\main.py');
 
 header('location:index.php?pagina=home');

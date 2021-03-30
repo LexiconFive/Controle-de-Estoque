@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserir Fornecedor</title>
+</head>
+<body>
+
+<form name="dados" method="post" action="processa_inserir_fornecedor.php" onsubmit="return aviso()">
+
+    <h1>Inserir Fornecedor</h1>
+    <br>
+    <label>
+        Nome do fornecedor:
+        <input type="text" id="fornecedor" name="fornecedor">
+        <br><br>
+        Contato:
+        <input type="text" id="contato" name="contato">
+        <br><br>
+        Ramo:
+        <input type="text" id="ramo" name="ramo">
+        <br><br>
+        Telefone:
+        <input type="text" id="telefone" name="telefone">
+        <br><br>
+        WhatsApp:
+        <input type="text" id="whatsapp" name="whatsapp">
+        <br><br>
+        <input style="background-color: green" type="submit" value="Cadastrar">
+        <br><br>
+    </label>
+</form>
+<form style="horiz-align: right" method="post" action="cancelar_inserir_fornecedor.php">
+
+    <input id="cancelar" style="background-color: indianred" type="submit" value="Cancelar">
+    <br><br>
+
+</form>
+
+
+</body>
+</html>

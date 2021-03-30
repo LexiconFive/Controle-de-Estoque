@@ -4,6 +4,7 @@ $connection = include 'db.php';
 
 ?>
 
+<a class="button_inserir_fornecedor" href="?pagina=inserir_fornecedor">Inserir</a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
     <caption style="font-weight: bold; font-size: 30px">Tabela de fornecedores</caption>

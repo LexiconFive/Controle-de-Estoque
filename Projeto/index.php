@@ -24,7 +24,13 @@ if($pagina == 'inserir_mercadoria'){
 
     include 'fornecedores.php';
 
-}else{
+}elseif($pagina == 'inserir_fornecedor'){
+
+    include 'inserir_fornecedor.html';
+
+}
+
+else{
 
     include 'home.php';
 }

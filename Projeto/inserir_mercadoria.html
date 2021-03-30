@@ -26,8 +26,15 @@
         Quantidade (Unidade):
         <input type="number" min="0" id="quantidade" name="quantidade">
         <br><br>
-        <input type="submit" value="Cadastrar">
+        <input style="background-color: green" type="submit" value="Cadastrar">
+        <br><br>
     </label>
+
+</form>
+<form method="post" action="cancelar_inserir_mercadoria.php">
+
+    <input style="background-color: indianred" type="submit" value="Cancelar">
+    <br><br>
 
 </form>
 
@@ -36,8 +43,10 @@
     function aviso(){
 
         let produto = document.forms["dados"]['produto'].value;
+        let preco = document.forms['dados']['preco'].value;
+        let quantidade = document.forms['dados']['quantidade'].value;
 
-        if(produto === ""){
+        if(produto === "" || preco === "" || quantidade === ""){
 
             alert("Preencha o formulário corretamente!");
             return false
