@@ -1,5 +1,15 @@
 <h1>Alterar Fornecedor</h1>
 
+<script>
+
+    function aviso(){
+
+        alert("Fornecedor alterado com sucesso!");
+
+    }
+
+</script>
+
 <?php
 
 $connection = include 'db.php';
@@ -34,7 +44,7 @@ while($linha = mysqli_fetch_array($consulta_fornecedor)) {
             WhatsApp:
             <input type="text" name="whatsapp" value="<?php echo $linha['whatsapp']; ?>">
             <br><br>
-            <input style="background-color: green" type="submit" value="Alterar">
+            <input style="background-color: green" type="submit" value="Alterar" onclick="aviso()">
             <br><br>
 
         </label>
@@ -48,4 +58,5 @@ while($linha = mysqli_fetch_array($consulta_fornecedor)) {
 
     </form>
 <?php
+
 }

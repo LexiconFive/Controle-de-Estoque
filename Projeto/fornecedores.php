@@ -4,6 +4,16 @@ $connection = include 'db.php';
 
 ?>
 
+<script>
+
+    function aviso(){
+
+        alert("Fornecedor deletado com sucesso!");
+
+    }
+
+</script>
+
 <a class="button_inserir_fornecedor" href="?pagina=inserir_fornecedor">Inserir</a>
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 

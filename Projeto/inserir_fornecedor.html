@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
     <title>Inserir Fornecedor</title>
+    <meta charset="UTF-8">
 </head>
 <body>
 
@@ -36,6 +36,32 @@
     <br><br>
 
 </form>
+
+<script>
+
+    function aviso(){
+
+        let fornecedor = document.forms["dados"]['fornecedor'].value;
+        let contato = document.forms['dados']['contato'].value;
+        let ramo = document.forms['dados']['ramo'].value;
+        let telefone = document.forms['dados']['telefone'].value;
+        let whatsapp = document.forms['dados']['whatsapp'].value;
+
+        if(fornecedor === "" || contato === "" || ramo === "" || telefone === "" || whatsapp === ""){
+
+            alert("Preencha o formulário corretamente!");
+            return false
+
+        }else{
+
+            alert("Mercadoria inserida com sucesso!");
+            return true;
+
+        }
+
+    }
+
+</script>
 
 
 </body>
