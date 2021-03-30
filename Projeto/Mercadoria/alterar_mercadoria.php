@@ -24,7 +24,7 @@ $consulta_estoque = mysqli_query($connection, $query);
 while($linha = mysqli_fetch_array($consulta_estoque)) {
 
     ?>
-    <form method="post" action="processa_alterar_mercadoria.php">
+    <form method="post" action="Mercadoria/processa_alterar_mercadoria.php">
 
         <label>
             <input type="hidden" name="id" value="<?php echo $id; ?>">
@@ -58,7 +58,7 @@ while($linha = mysqli_fetch_array($consulta_estoque)) {
 
     </form>
 
-    <form method="post" action="cancelar_mercadoria.php">
+    <form method="post" action="Mercadoria/cancelar_mercadoria.php">
 
         <input style="background-color: indianred" type="submit" value="Cancelar">
         <br><br>

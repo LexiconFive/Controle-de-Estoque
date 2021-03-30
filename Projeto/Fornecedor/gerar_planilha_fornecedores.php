@@ -21,7 +21,7 @@ $consulta_fornecedor = mysqli_query($connection, $query);
 $html = '';
 $html .= '<table border="1">';
 $html .= '<tr>';
-$html .= '<td colspan="4">Planilha de Fornecedores </td>';
+$html .= '<td colspan="5">Planilha de Fornecedores </td>';
 $html .= '</tr>';
 
 $html .= '<tr>';

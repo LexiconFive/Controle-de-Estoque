@@ -1,6 +1,6 @@
 <?php
 
-$connection = include 'db.php';
+$connection = include '../db.php';
 
 $id = $_POST['id'];
 $produto = $_POST['produto'];
@@ -12,4 +12,4 @@ $query = "UPDATE estoque SET produto = '$produto', unidade = '$unidade',preco = 
           WHERE id = $id";
 
 mysqli_query($connection, $query);
-header('location:index.php?pagina=home');
+header('location:../index.php?pagina=home');

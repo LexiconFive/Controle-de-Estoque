@@ -14,7 +14,7 @@ else{
 
 if($pagina == 'inserir_mercadoria'){
 
-    include 'inserir_mercadoria.html';
+    include 'Mercadoria/inserir_mercadoria.html';
 
 }elseif($pagina == 'inserir_fornecedor'){
 
@@ -22,7 +22,7 @@ include 'Fornecedor/inserir_fornecedor.html';
 
 }elseif ($pagina == 'alterar_mercadoria') {
 
-    include 'alterar_mercadoria.php';
+    include 'Mercadoria/alterar_mercadoria.php';
 
 }elseif ($pagina == 'alterar_fornecedor'){
 

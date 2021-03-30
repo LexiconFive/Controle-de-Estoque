@@ -49,8 +49,8 @@
         echo '<td>'.$linha['unidade'].'</td>';
         echo '<td>R$ '.$linha['preco'].'</td>';
         echo '<td>'.$linha['quantidade'].'</td>';
-        echo '<td><form method="post" action="deletar_mercadoria.php">
-                    <input type="hidden" name="id" value="'.$linha['id'].'">
+        echo '<td><form method="post" action="Mercadoria/deletar_mercadoria.php">
+                    <input type="hidden" name="id" value="' .$linha['id'].'">
                     <input class="button_deletar" type="submit" onclick="aviso()" value="Deletar">
                   </form></td>';
         echo '<td><form method="post" action="?pagina=alterar_mercadoria">
@@ -64,4 +64,4 @@
     </tbody>
 
 </table>
-<a class="button_arquivo" href="gerar_planilha_estoque.php"></a>
+<a class="button_arquivo" href="Mercadoria/gerar_planilha_estoque.php"></a>
