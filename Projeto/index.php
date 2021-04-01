@@ -32,9 +32,11 @@ include 'Fornecedor/inserir_fornecedor.html';
 
     include 'Fornecedor/fornecedores.php';
 
-}
+}elseif ($pagina == 'movimentacao'){
 
-else{
+    include 'Mercadoria/movimentacao.php';
+
+} else{
 
     include 'home.php';
 }
