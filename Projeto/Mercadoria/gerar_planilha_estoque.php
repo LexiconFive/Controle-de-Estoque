@@ -21,23 +21,27 @@
     $html = '';
     $html .= '<table border="1">';
     $html .= '<tr>';
-    $html .= '<td colspan="4">Planilha do Estoque</td>';
+    $html .= '<td style="text-align: center" colspan="6">Planilha do Estoque</td>';
     $html .= '</tr>';
 
     $html .= '<tr>';
+    $html .= '<td><b>Código</b></td>';
     $html .= '<td><b>Produto</b></td>';
     $html .= '<td><b>Unidade</b></td>';
     $html .= '<td><b>Preço (Unidade)</b></td>';
     $html .= '<td><b>Quantidade (Unidade)</b></td>';
+    $html .= '<td><b>Preço Total</b></td>';
     $html .= '</tr>';
 
     while($linha = mysqli_fetch_array($consulta_estoque)){
 
         $html .= '<tr>';
-        $html .= '<td>'.$linha['produto'].'</td>';
-        $html .= '<td>'.$linha['unidade'].'</td>';
-        $html .= '<td>'.$linha['preco'].'</td>';
-        $html .= '<td>'.$linha['quantidade'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['id'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['produto'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['unidade'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['preco'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['quantidade'].'</td>';
+        $html .= '<td style="text-align: center">'.$linha['precototal'].'</td>';
         $html .= '</tr>';
 
     }

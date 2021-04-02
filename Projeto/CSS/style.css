@@ -1,4 +1,3 @@
-.button_arquivo{padding: 10px; content: url("../icons/excel.ico"); border: black}
 header{height: 100px; background-color: darkolivegreen; padding: 50px 0}
 body{font-family: helvetica, arial, serif; font-size: 16px; background-color: white}
 footer{height: 10px; background-color: darkolivegreen; padding: 25px 0; text-align: center; color: white}
@@ -11,9 +10,10 @@ td{font-weight: bold; font-size: 20px}
 .button_calculadora{padding: 10px; content: url("../icons/calculadora.ico"); horiz-align: left; border: black}
 .button_deletar{background-color: indianred}
 .button_editar{background-color: goldenrod}
-
+.button_arquivo{padding: 10px; content: url("../icons/excel.ico"); border: black}
 .home{content: url("../icons/home.ico")}
 .container{ margin: 0 auto; width: 960px}
+
 #menu{float: right; padding: 40px 0}
 #menu a{text-decoration: none; padding: 20px 40px; color: cornsilk; text-shadow: 1px 1px 1px #111}
 #menu a:hover{background-color: cadetblue}
