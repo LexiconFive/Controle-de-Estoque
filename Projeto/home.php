@@ -1,7 +1,5 @@
 <?php
 
-    include ('phpqrcode/qrlib.php');
-    //QRcode::png("Bom dia pessoas", "QR_code.png", QR_ECLEVEL_L, 2);
     $connection = include 'db.php';
 
 ?>
@@ -21,10 +19,8 @@
 </script>
 
 <a class="button_inserir_item" href="?pagina=inserir_mercadoria"></a>
-<!-- <a href="?pagina=movimentacao">Movimentação</a> -->
 <a class="button_calculadora" href="calculadora.php"></a>
 <a class="button_fornecedor" href="?pagina=fornecedores"></a>
-<!-- <img src="QR_code.png" alt=""> -->
 
 <table style="border:1px solid #ccc; width: 100% ;margin: auto">
 
