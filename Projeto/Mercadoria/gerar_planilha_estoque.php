@@ -19,7 +19,7 @@
     $consulta_estoque = mysqli_query($connection, $query);
 
     $html = '';
-    $html .= '<table border="1">';
+    $html .= '<table border="1px">';
     $html .= '<tr>';
     $html .= '<td style="text-align: center" colspan="6">Planilha do Estoque</td>';
     $html .= '</tr>';

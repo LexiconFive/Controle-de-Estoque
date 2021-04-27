@@ -1,7 +1,7 @@
 <?php
 
     include ('phpqrcode/qrlib.php');
-    QRcode::png("Bom dia pessoas", "QR_code.png", QR_ECLEVEL_L, 2);
+    //QRcode::png("Bom dia pessoas", "QR_code.png", QR_ECLEVEL_L, 2);
     $connection = include 'db.php';
 
 ?>
@@ -73,4 +73,4 @@
 
 </table>
 <a class="button_arquivo_excel" href="Mercadoria/gerar_planilha_estoque.php"></a>
-<a class="button_arquivo_pdf" href=""></a>
+<a class="button_arquivo_pdf" href="Mercadoria/gerar_pdf_estoque.php"></a>
