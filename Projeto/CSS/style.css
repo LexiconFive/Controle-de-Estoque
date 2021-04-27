@@ -58,9 +58,14 @@ td {
 .button_editar {
     background-color: goldenrod;
 }
-.button_arquivo {
+.button_arquivo_excel {
     padding: 10px;
     content: url("../icons/excel.ico");
+    border: black;
+}
+.button_arquivo_pdf{
+    padding: 10px;
+    content: url("../icons/icon_pdf.png");
     border: black;
 }
 .home {

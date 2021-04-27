@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876de305-98f9-481e-8cba-3b4f20f8f75a" name="Default Changelist" comment="Mudando">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projeto/icons" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -53,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documentos\GitHub\Controle-de-Estoque\Projeto\icons" />
       <recent name="D:\Documentos\GitHub\Controle-de-estoque\Projeto\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +92,12 @@
       <workItem from="1617212569347" duration="1567000" />
       <workItem from="1617276449091" duration="1626000" />
       <workItem from="1617301302281" duration="5489000" />
-      <workItem from="1617322007864" duration="1353000" />
+      <workItem from="1617322007864" duration="1415000" />
+      <workItem from="1617323489810" duration="661000" />
+      <workItem from="1617885461610" duration="23000" />
+      <workItem from="1617885745515" duration="133000" />
+      <workItem from="1619530192016" duration="4716000" />
+      <workItem from="1619537265859" duration="641000" />
     </task>
     <servers />
   </component>
