@@ -41,7 +41,6 @@ $html .= "</table>";
 $html .= '<br><br>';
 $html .= '<div style="text-align: center"><font face="verdana" size="20">Esse é apenas um documento de texto que mostra a tabela de planilha de fornecedores da empresa fictícia Xis.</font></div>';
 
-
 $dompdf->loadHtml($html);
 
 $dompdf->render();
