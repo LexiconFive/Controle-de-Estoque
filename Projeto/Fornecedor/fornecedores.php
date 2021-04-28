@@ -61,4 +61,6 @@ $connection = include 'db.php';
     </tbody>
 
 </table>
-<a class="button_arquivo" href="Fornecedor/gerar_planilha_fornecedores.php"></a>
+
+<a class="button_arquivo_excel" href="Fornecedor/gerar_planilha_fornecedores.php"></a>
+<a class="button_arquivo_pdf" href="Fornecedor/gerar_pdf_fornecedores.php"></a>

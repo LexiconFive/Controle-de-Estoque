@@ -5,8 +5,8 @@ use Dompdf\Dompdf;
 session_start();
 
 $connection = include_once '../db.php';
-$query = "SELECT * FROM estoque";
-$consulta_estoque = mysqli_query($connection, $query);
+$query = "SELECT * FROM fornecedores";
+$consulta_fornecedor = mysqli_query($connection, $query);
 
 require_once '../dompdf/autoload.inc.php';
 
@@ -16,34 +16,33 @@ $html = "<img src='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQ
 $html .= "<h1 style='text-align: center'>Empresa Xis</h1>";
 $html .= "<table style=\"border: 1px solid #111111; margin: auto\">
 
-    <tr><td style=\"border: 1px solid #111111; text-align: center\" colspan=\"6\">Planilha do Estoque</td></tr>
+    <tr><td style=\"border: 1px solid #111111; text-align: center\" colspan=\"6\">Planilha de Fornecedores</td></tr>
     <tr>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Código</b></td>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Produto</b></td>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Unidade</b></td>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Preço (Unidade)</b></td>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Quantidade (Unidade)</b></td>
-    <td style=\"border: 1px solid #111111; text-align: center\"><b>Preço Total</b></td></tr>
+    <td style=\"border: 1px solid #111111; text-align: center\"><b>Empresa</b></td>
+    <td style=\"border: 1px solid #111111; text-align: center\"><b>Contato</b></td>
+    <td style=\"border: 1px solid #111111; text-align: center\"><b>Ramo</b></td>
+    <td style=\"border: 1px solid #111111; text-align: center\"><b>Telefone</b></td>
+    <td style=\"border: 1px solid #111111; text-align: center\"><b>WhatsApp</b></td></tr>
 ";
 
-while($linha = mysqli_fetch_array($consulta_estoque)){
+while($linha = mysqli_fetch_array($consulta_fornecedor)){
 
     $html .= '<tr>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">'.$linha['id'].'</td>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">'.$linha['produto'].'</td>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">'.$linha['unidade'].'</td>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">R$ '.$linha['preco'].'</td>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">'.$linha['quantidade'].'</td>';
-    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 10px">R$ '.$linha['precototal'].'</td>';
+    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 15px">'.$linha['empresa'].'</td>';
+    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 15px">'.$linha['contato'].'</td>';
+    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 15px">'.$linha['ramo'].'</td>';
+    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 15px">'.$linha['telefone'].'</td>';
+    $html .= '<td style="border: 1px solid #111111; text-align: center; padding: 15px">'.$linha['whatsapp'].'</td>';
     $html .= '</tr>';
 
 }
 
 $html .= "</table>";
 $html .= '<br><br>';
-$html .= '<div style="text-align: center"><font face="verdana" size="20">Esse é apenas um documento de texto que mostra a tabela de planilha do estoque da empresa fictícia Xis.</font></div>';
+$html .= '<div style="text-align: center"><font face="verdana" size="20">Esse é apenas um documento de texto que mostra a tabela de planilha de fornecedores da empresa fictícia Xis.</font></div>';
+
 
 $dompdf->loadHtml($html);
 
 $dompdf->render();
-$dompdf->stream("estoque", array("Attachment" => false));
+$dompdf->stream("fornecedores", array("Attachment" => false));
